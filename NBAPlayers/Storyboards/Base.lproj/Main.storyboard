@@ -301,7 +301,7 @@
                                 <rect key="frame" x="184" y="433" width="47" height="30"/>
                                 <state key="normal" title="Reload"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Network error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RW-zM-16c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Network error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RW-zM-16c">
                                 <rect key="frame" x="154" y="404" width="106" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
@@ -311,6 +311,7 @@
                         <viewLayoutGuide key="safeArea" id="qR9-2H-IOm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6RW-zM-16c" firstAttribute="centerX" secondItem="m9T-03-QWv" secondAttribute="centerX" id="603-EM-afn"/>
                             <constraint firstItem="FsD-Xs-0Al" firstAttribute="top" secondItem="qR9-2H-IOm" secondAttribute="top" id="6q4-U2-Lt9"/>
                             <constraint firstItem="mca-D3-uHB" firstAttribute="centerX" secondItem="qR9-2H-IOm" secondAttribute="centerX" id="EFh-NQ-Ghp"/>
                             <constraint firstItem="FsD-Xs-0Al" firstAttribute="leading" secondItem="qR9-2H-IOm" secondAttribute="leading" id="GWM-5T-rUt"/>

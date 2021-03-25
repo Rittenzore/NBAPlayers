@@ -53,6 +53,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28C7E84C260C746900C386CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2848C53025FA038E00999479 /* GamesViewController.swift */,
+				28F8E01A25F924F2001314F6 /* PlayersViewController.swift */,
+				2848C53825FA1B3D00999479 /* GamesDetailsViewController.swift */,
+				28F8E02C25F949CB001314F6 /* TeamDetailsViewController.swift */,
+				28F8E02625F932BD001314F6 /* PlayerDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28C7E84D260C747700C386CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2848C53425FA065100999479 /* Game.swift */,
+				28F8E02925F93507001314F6 /* Player.swift */,
+				28F8E02F25F94CC3001314F6 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28C7E84E260C74BD00C386CB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				28F8E00625F923EE001314F6 /* SceneDelegate.swift */,
+				28F8E00425F923EE001314F6 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		28C7E850260C750E00C386CB /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				2848C52D25F9E9DE00999479 /* ApiClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		28C7E851260C751800C386CB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				28F8E00F25F923F2001314F6 /* LaunchScreen.storyboard */,
+				28F8E00A25F923EE001314F6 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		28F8DFF825F923EE001314F6 = {
 			isa = PBXGroup;
 			children = (
@@ -72,20 +120,12 @@
 		28F8E00325F923EE001314F6 /* NBAPlayers */ = {
 			isa = PBXGroup;
 			children = (
-				28F8E00425F923EE001314F6 /* AppDelegate.swift */,
-				28F8E00625F923EE001314F6 /* SceneDelegate.swift */,
-				28F8E00A25F923EE001314F6 /* Main.storyboard */,
-				28F8E02C25F949CB001314F6 /* TeamDetailsViewController.swift */,
-				28F8E01A25F924F2001314F6 /* PlayersViewController.swift */,
-				2848C53025FA038E00999479 /* GamesViewController.swift */,
-				28F8E02625F932BD001314F6 /* PlayerDetailsViewController.swift */,
-				2848C53825FA1B3D00999479 /* GamesDetailsViewController.swift */,
-				2848C52D25F9E9DE00999479 /* ApiClient.swift */,
-				28F8E02F25F94CC3001314F6 /* Team.swift */,
-				28F8E02925F93507001314F6 /* Player.swift */,
-				2848C53425FA065100999479 /* Game.swift */,
+				28C7E851260C751800C386CB /* Storyboards */,
+				28C7E850260C750E00C386CB /* Clients */,
+				28C7E84E260C74BD00C386CB /* Delegates */,
+				28C7E84D260C747700C386CB /* Models */,
+				28C7E84C260C746900C386CB /* Controllers */,
 				28F8E00D25F923F2001314F6 /* Assets.xcassets */,
-				28F8E00F25F923F2001314F6 /* LaunchScreen.storyboard */,
 				28F8E01225F923F2001314F6 /* Info.plist */,
 			);
 			path = NBAPlayers;
